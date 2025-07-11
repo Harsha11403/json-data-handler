@@ -42,7 +42,7 @@ The project follows a Test-Driven Development (TDD) approach, ensuring robust an
 1.  **Clone the Repository **
     ```bash
     git clone https://github.com/Harsha11403/json-data-handler.git
-    cd json-data-handler-app
+    cd json-data-handler
     ```
 
 2.  **Configure Database:**
