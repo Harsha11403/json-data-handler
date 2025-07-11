@@ -35,7 +35,7 @@ The project follows a Test-Driven Development (TDD) approach, ensuring robust an
 * Maven installed.
 * PostgreSQL database server running.
 * A database created for the application (e.g., `jsondata_manager`).
-* A PostgreSQL user with permissions to access this database (e.g., `postgres` with password `Harsha114` as per `application.properties`).
+* A PostgreSQL user with permissions to access this database.
 
 ### Setup and Running the Application
 
@@ -52,8 +52,8 @@ The project follows a Test-Driven Development (TDD) approach, ensuring robust an
         ```properties
         spring.datasource.url=jdbc:postgresql://localhost:5432/jsondata_manager
         spring.datasource.username=postgres
-        spring.datasource.password=Harsha114
-        spring.jpa.hibernate.ddl-auto=update # This will create/update tables automatically
+        spring.datasource.password=${DB_PASSWORD}
+        spring.jpa.hibernate.ddl-auto=update
         ```
 
 3.  **Build the Project:**
