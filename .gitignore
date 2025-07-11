@@ -1,0 +1,50 @@
+# Compiled class files
+target/
+bin/
+*.class
+
+# Package Files
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Log files
+*.log
+logs/
+
+# IDE-specific files and directories
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+out/
+.metadata/
+
+# Maven temporary files
+pom.xml.tag
+pom.xml.next
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.devtools
+pom.xml.keep
+dependency-reduced-pom.xml
+
+# System generated files
+.DS_Store
+Thumbs.db
+
+# Spring Boot specific
+/src/main/resources/application*.properties
+/src/main/resources/application*.yml
+/src/main/resources/application*.yaml
+
+# OPTIONAL: Uncomment to include non-sensitive application.properties/yml
+# !/src/main/resources/application.properties
+# !/src/main/resources/application-dev.yml
